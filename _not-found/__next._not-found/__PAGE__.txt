@@ -1,0 +1,30 @@
+2:"$Sreact.fragment"
+3:"/portfolio/_next/static/chunks/3tc6ikyeo0wgu.js"
+4:"/portfolio/_next/static/chunks/0yvy39psz4ayb.js"
+5:"/portfolio/_next/static/chunks/1pxw3sf4g624a.js"
+6:"/portfolio/_next/static/chunks/0e4jw7em6yt-x.js"
+7:"/portfolio/_next/static/chunks/0jot1f_s_v562.js"
+8:"/portfolio/_next/static/chunks/0sdgu1nmjejgs.js"
+9:I[35767,["$3","$4","$5","$6","$7","$8"],"default"]
+a:I[77447,["$3","$4","$5","$6","$7","$8"],"default"]
+f:I[33390,["$3","$4","$5","$6","$7","$8"],"OutletBoundary"]
+10:"$Sreact.suspense"
+13:"ViewportBoundary"
+14:I[33390,["$3","$4","$5","$6","$7","$8"],"$13"]
+15:"MetadataBoundary"
+16:I[33390,["$3","$4","$5","$6","$7","$8"],"$15"]
+17:I[81541,["$3","$4","$5","$6","$7","$8"],"IconMark"]
+c:X
+c:C
+d:X
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","section",null,{"className":"display-flex position-relative pb-160 flex-column center fill min-height-0 min-width-0 ","style":{},"children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{},"children":"The page you are looking for does not exist."}]]}],null,["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":"$@12","v":null,"s":"$d"}}]]
+1:[["children",{"s":"/_not-found","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@b","v":"$c","s":"$d"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"yy — 个人作品集"}],["$","meta","1",{"name":"description","content":"用 AI 拓宽边界，用代码验证想法。武汉理工大学数字经济专业学生，独立构建者。"}],["$","meta","2",{"property":"og:title","content":"yy — 个人作品集"}],["$","meta","3",{"property":"og:description","content":"用 AI 拓宽边界，用代码验证想法。武汉理工大学数字经济专业学生，独立构建者。"}],["$","meta","4",{"property":"og:url","content":"https://ndhcunsjeh-bit.github.io/portfolio/"}],["$","meta","5",{"property":"og:image","content":"https://ndhcunsjeh-bit.github.io/portfolio/images/og/home.jpg"}],["$","meta","6",{"property":"og:image:alt","content":"yy — 个人作品集"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"yy — 个人作品集"}],["$","meta","10",{"name":"twitter:description","content":"用 AI 拓宽边界，用代码验证想法。武汉理工大学数字经济专业学生，独立构建者。"}],["$","meta","11",{"name":"twitter:image","content":"https://ndhcunsjeh-bit.github.io/portfolio/images/og/home.jpg"}],["$","link","12",{"rel":"icon","href":"/portfolio/favicon.ico?favicon.03yez63zhahx5.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","13",{"rel":"icon","href":"/portfolio/icon.png?icon.17tyl2ic_5bll.png","sizes":"256x256","type":"image/png"}],["$","$L17","14",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@18","v":null,"s":"$d"}},"a":"$@19","u":"$@1a","b":"7WYuTZmNYC00iMgQl76b6"}
+11:null
+1a:true
+d:300
+d:C
+19:0
+b:"$undefined"
+18:"$undefined"
+12:"$undefined"

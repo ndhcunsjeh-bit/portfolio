@@ -1,0 +1,31 @@
+2:"$Sreact.fragment"
+3:"/portfolio/_next/static/chunks/3tc6ikyeo0wgu.js"
+4:"/portfolio/_next/static/chunks/0yvy39psz4ayb.js"
+5:"/portfolio/_next/static/chunks/1pxw3sf4g624a.js"
+6:"/portfolio/_next/static/chunks/0e4jw7em6yt-x.js"
+7:"/portfolio/_next/static/chunks/0jot1f_s_v562.js"
+8:"/portfolio/_next/static/chunks/0sdgu1nmjejgs.js"
+9:I[35767,["$3","$4","$5","$6","$7","$8"],"default"]
+a:I[77447,["$3","$4","$5","$6","$7","$8"],"default"]
+f:I[74855,["$3","$4","$5","$6","$7","$8"],"ProjectCard"]
+10:I[33390,["$3","$4","$5","$6","$7","$8"],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[33390,["$3","$4","$5","$6","$7","$8"],"$14"]
+16:"MetadataBoundary"
+17:I[33390,["$3","$4","$5","$6","$7","$8"],"$16"]
+18:I[81541,["$3","$4","$5","$6","$7","$8"],"IconMark"]
+c:X
+c:C
+d:X
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","div",null,{"className":"display-flex position-relative pt-24 flex-column fill-width max-width-m ","style":{},"children":[["$","script",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://ndhcunsjeh-bit.github.io/portfolio/work\",\"sameAs\":[],\"headline\":\"作品 — yy\",\"description\":\"yy 的项目：五个能点开就用的小东西\",\"image\":\"https://ndhcunsjeh-bit.github.io/portfolio/api/og/generate?title=%E4%BD%9C%E5%93%81%20%E2%80%94%20yy\",\"author\":{\"@type\":\"Person\",\"name\":\"yy\",\"url\":\"https://ndhcunsjeh-bit.github.io/portfolio/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://ndhcunsjeh-bit.github.io/portfolio/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"作品 — yy"}],["$","div",null,{"className":"display-flex position-relative px-l mb-40 g-xl flex-column min-width-0 fill-width ","style":{},"children":[["$","$Lf","guhe",{"priority":true,"href":"/work/guhe","images":["/images/projects/yy/cover-grainbox.jpg"],"title":"谷盒 GrainBox","description":"手办 / 谷子的收藏管理站：账号、谷库、看板、广场，数据放 Supabase，前端只有一层 HTML。","hasContent":true,"avatars":[{"src":"/images/avatar.png","aria-label":"yy"}],"link":"https://ndhcunsjeh-bit.github.io/grainbox/","repo":"https://github.com/ndhcunsjeh-bit/grainbox"}],["$","$Lf","echo-agent",{"priority":true,"href":"/work/echo-agent","images":["/images/projects/yy/cover-agent.jpg"],"title":"类我语言 Agent","description":"一个说话像我、有我自己语料的对话 Agent：从设计图做出整页聊天界面，再把「像我」这件事调到可信。","hasContent":true,"avatars":[{"src":"/images/avatar.png","aria-label":"yy"}],"link":"","repo":""}],["$","$Lf","ai-turtle-soup",{"priority":false,"href":"/work/ai-turtle-soup","images":["/images/projects/yy/cover-turtle-soup.jpg"],"title":"AI 海龟汤","description":"只能回答「是 / 否 / 无关 / 无法回答」的推理游戏。为了能放上 GitHub Pages，把原来靠大模型的判定改成了浏览器里的本地判定引擎。","hasContent":true,"avatars":[{"src":"/images/avatar.png","aria-label":"yy"}],"link":"https://ndhcunsjeh-bit.github.io/ai-turtle-soup/","repo":"https://github.com/ndhcunsjeh-bit/ai-turtle-soup"}],["$","$Lf","random-lunch",{"priority":false,"href":"/work/random-lunch","images":["/images/projects/yy/cover-lunch.jpg"],"title":"随机午餐","description":"「今天吃什么」的决策器：抽一道菜、抽完这一轮就不重复，清单和图片全存在你自己的浏览器里。","hasContent":true,"avatars":[{"src":"/images/avatar.png","aria-label":"yy"}],"link":"https://ndhcunsjeh-bit.github.io/random-lunch/","repo":"https://github.com/ndhcunsjeh-bit/random-lunch"}],["$","$Lf","down-100",{"priority":false,"href":"/work/down-100","images":["/images/projects/yy/cover-down100-game.jpg"],"title":"是男人就下100层","description":"千禧年 Flash 味道的像素小游戏：全部图形由代码绘制，零素材、单文件，三档难度只调节奏和陷阱密度。","hasContent":true,"avatars":[{"src":"/images/avatar.png","aria-label":"yy"}],"link":"https://ndhcunsjeh-bit.github.io/-100-/","repo":"https://github.com/ndhcunsjeh-bit/-100-"}]]}]]}],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$d"}}]]
+1:[["children",{"s":"work","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@b","v":"$c","s":"$d"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"作品 — yy"}],["$","meta","1",{"name":"description","content":"yy 的项目：五个能点开就用的小东西"}],["$","link","2",{"rel":"canonical","href":"https://ndhcunsjeh-bit.github.io/portfolio/work/"}],["$","meta","3",{"property":"og:title","content":"作品 — yy"}],["$","meta","4",{"property":"og:description","content":"yy 的项目：五个能点开就用的小东西"}],["$","meta","5",{"property":"og:url","content":"https://ndhcunsjeh-bit.github.io/portfolio/work/"}],["$","meta","6",{"property":"og:image","content":"https://ndhcunsjeh-bit.github.io/portfolio/api/og/generate?title=%E4%BD%9C%E5%93%81%20%E2%80%94%20yy"}],["$","meta","7",{"property":"og:image:alt","content":"作品 — yy"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"作品 — yy"}],["$","meta","11",{"name":"twitter:description","content":"yy 的项目：五个能点开就用的小东西"}],["$","meta","12",{"name":"twitter:image","content":"https://ndhcunsjeh-bit.github.io/portfolio/api/og/generate?title=%E4%BD%9C%E5%93%81%20%E2%80%94%20yy"}],["$","link","13",{"rel":"icon","href":"/portfolio/favicon.ico?favicon.03yez63zhahx5.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","14",{"rel":"icon","href":"/portfolio/icon.png?icon.17tyl2ic_5bll.png","sizes":"256x256","type":"image/png"}],["$","$L18","15",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":null,"s":"$d"}},"a":"$@1a","u":"$@1b","b":"7WYuTZmNYC00iMgQl76b6"}
+12:null
+1b:true
+d:300
+d:C
+1a:0
+b:"$undefined"
+19:"$undefined"
+13:"$undefined"

@@ -1,0 +1,32 @@
+2:"$Sreact.fragment"
+3:"/portfolio/_next/static/chunks/3tc6ikyeo0wgu.js"
+4:"/portfolio/_next/static/chunks/0yvy39psz4ayb.js"
+5:"/portfolio/_next/static/chunks/1pxw3sf4g624a.js"
+6:"/portfolio/_next/static/chunks/0e4jw7em6yt-x.js"
+7:"/portfolio/_next/static/chunks/0jot1f_s_v562.js"
+8:"/portfolio/_next/static/chunks/0sdgu1nmjejgs.js"
+9:I[35767,["$3","$4","$5","$6","$7","$8"],"default"]
+a:I[77447,["$3","$4","$5","$6","$7","$8"],"default"]
+f:"/portfolio/_next/static/chunks/1zef59cs7xiq4.js"
+10:I[11217,["$3","$4","$5","$6","$7","$8","$f"],"default"]
+11:I[33390,["$3","$4","$5","$6","$7","$8"],"OutletBoundary"]
+12:"$Sreact.suspense"
+15:"ViewportBoundary"
+16:I[33390,["$3","$4","$5","$6","$7","$8"],"$15"]
+17:"MetadataBoundary"
+18:I[33390,["$3","$4","$5","$6","$7","$8"],"$17"]
+19:I[81541,["$3","$4","$5","$6","$7","$8"],"IconMark"]
+c:X
+c:C
+d:X
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","div",null,{"className":"display-flex position-relative fill-width max-width-l ","style":{},"children":[["$","script",null,{"id":"schema-webPage-/gallery","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://ndhcunsjeh-bit.github.io/portfolio/gallery\",\"sameAs\":[],\"headline\":\"相册 — yy\",\"description\":\"一些随手拍\",\"image\":\"https://ndhcunsjeh-bit.github.io/portfolio/api/og/generate?title=%E7%9B%B8%E5%86%8C%20%E2%80%94%20yy\",\"author\":{\"@type\":\"Person\",\"name\":\"yy\",\"url\":\"https://ndhcunsjeh-bit.github.io/portfolio/gallery\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://ndhcunsjeh-bit.github.io/portfolio/images/avatar.png\"}}}"}}],["$","$L10",null,{}]]}],[["$","script","script-0",{"src":"/portfolio/_next/static/chunks/1zef59cs7xiq4.js","async":true}]],["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]]}],"p":"$@14","v":null,"s":"$d"}}]]
+1:[["children",{"s":"gallery","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@b","v":"$c","s":"$d"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L16",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]}],["$","$L18",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"相册 — yy"}],["$","meta","1",{"name":"description","content":"一些随手拍"}],["$","link","2",{"rel":"canonical","href":"https://ndhcunsjeh-bit.github.io/portfolio/gallery/"}],["$","meta","3",{"property":"og:title","content":"相册 — yy"}],["$","meta","4",{"property":"og:description","content":"一些随手拍"}],["$","meta","5",{"property":"og:url","content":"https://ndhcunsjeh-bit.github.io/portfolio/gallery/"}],["$","meta","6",{"property":"og:image","content":"https://ndhcunsjeh-bit.github.io/portfolio/api/og/generate?title=%E7%9B%B8%E5%86%8C%20%E2%80%94%20yy"}],["$","meta","7",{"property":"og:image:alt","content":"相册 — yy"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"相册 — yy"}],["$","meta","11",{"name":"twitter:description","content":"一些随手拍"}],["$","meta","12",{"name":"twitter:image","content":"https://ndhcunsjeh-bit.github.io/portfolio/api/og/generate?title=%E7%9B%B8%E5%86%8C%20%E2%80%94%20yy"}],["$","link","13",{"rel":"icon","href":"/portfolio/favicon.ico?favicon.03yez63zhahx5.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","14",{"rel":"icon","href":"/portfolio/icon.png?icon.17tyl2ic_5bll.png","sizes":"256x256","type":"image/png"}],["$","$L19","15",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1a","v":null,"s":"$d"}},"a":"$@1b","u":"$@1c","b":"7WYuTZmNYC00iMgQl76b6"}
+13:null
+1c:true
+d:300
+d:C
+1b:0
+b:"$undefined"
+1a:"$undefined"
+14:"$undefined"
