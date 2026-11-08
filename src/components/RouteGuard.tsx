@@ -14,7 +14,17 @@ interface RouteGuardProps {
 // access, so that is the pathname the server renders with.
 const LOCKED_PATH = "/locked";
 
-function isRouteEnabled(pathname: string | null): boolean {
+// 静态导出时（trailingSlash: true）usePathname 会带上结尾斜杠：
+// "/me/" 用精确匹配就会掉进 404，所以先归一化再判断。
+function normalizePathname(pathname: string | null): string | null {
+  if (!pathname) return null;
+  const [path] = pathname.split("?");
+  if (path.length > 1 && path.endsWith("/")) return path.replace(/\/+$/, "");
+  return path;
+}
+
+function isRouteEnabled(rawPathname: string | null): boolean {
+  const pathname = normalizePathname(rawPathname);
   if (!pathname) return false;
   if (pathname === LOCKED_PATH) return true;
 

@@ -14,7 +14,8 @@
 import { home, person, social } from "./content";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL: string = "https://ndhcunsjeh-bit.github.io";
+// 站点部署在 GitHub Pages 的项目页下（basePath = /portfolio），所以 baseURL 要带上这段
+const baseURL: string = "https://ndhcunsjeh-bit.github.io/portfolio";
 
 const routes: RoutesConfig = {
   "/": true,

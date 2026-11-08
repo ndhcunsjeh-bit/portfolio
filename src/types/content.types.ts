@@ -254,11 +254,6 @@ export interface Me extends BasePageConfig {
     title: string;
     description: React.ReactNode;
   }>;
-  /** A few honest numbers */
-  facts: Array<{
-    value: string;
-    label: string;
-  }>;
   /** How I work */
   habits: Array<{
     title: string;

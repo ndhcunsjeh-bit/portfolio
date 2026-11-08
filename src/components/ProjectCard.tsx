@@ -20,6 +20,8 @@ interface ProjectCardProps {
   description: string;
   avatars: { src: string; "aria-label"?: string }[];
   link: string;
+  /** Public repo for the project, if it has one. */
+  repo?: string;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -30,6 +32,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   description,
   avatars,
   link,
+  repo,
 }) => {
   return (
     <Column fillWidth gap="m">
@@ -80,6 +83,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                   href={link}
                 >
                   <Text variant="body-default-s">打开作品</Text>
+                </SmartLink>
+              )}
+              {repo && (
+                <SmartLink
+                  style={{ margin: "0", width: "fit-content" }}
+                  href={repo}
+                >
+                  <Text variant="body-default-s">源码</Text>
                 </SmartLink>
               )}
             </Flex>

@@ -104,24 +104,6 @@ export default function Me() {
         </Grid>
       </Column>
 
-      {/* 几个数字 */}
-      <Column fillWidth gap="m" paddingX="24">
-        <Line background="neutral-alpha-medium" />
-        <Grid columns="4" s={{ columns: 2 }} gap="16" fillWidth paddingY="16">
-          {me.facts.map((fact) => (
-            <Column key={fact.label} gap="4">
-              <Text variant="display-strong-s" onBackground="brand-strong">
-                {fact.value}
-              </Text>
-              <Text variant="body-default-xs" onBackground="neutral-weak">
-                {fact.label}
-              </Text>
-            </Column>
-          ))}
-        </Grid>
-        <Line background="neutral-alpha-medium" />
-      </Column>
-
       {/* 工作方式 */}
       <Column fillWidth gap="m" paddingX="24">
         <Heading as="h2" variant="display-strong-xs" marginBottom="4">

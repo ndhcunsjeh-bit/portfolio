@@ -122,16 +122,28 @@ export default async function Project({
           </Text>
         </Row>
       </Row>
-      {post.metadata.link && (
-        <Row horizontal="center" marginBottom="24">
-          <Button
-            href={post.metadata.link}
-            variant="secondary"
-            size="m"
-            weight="default"
-            prefixIcon="arrowUpRightFromSquare"
-            label="打开作品"
-          />
+      {(post.metadata.link || post.metadata.repo) && (
+        <Row horizontal="center" marginBottom="24" gap="12" wrap>
+          {post.metadata.link && (
+            <Button
+              href={post.metadata.link}
+              variant="secondary"
+              size="m"
+              weight="default"
+              prefixIcon="arrowUpRightFromSquare"
+              label="打开作品"
+            />
+          )}
+          {post.metadata.repo && (
+            <Button
+              href={post.metadata.repo}
+              variant="tertiary"
+              size="m"
+              weight="default"
+              prefixIcon="github"
+              label="源码"
+            />
+          )}
         </Row>
       )}
       {post.metadata.images.length > 0 && (

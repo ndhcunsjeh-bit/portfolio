@@ -28,7 +28,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/",
+    link: "https://github.com/ndhcunsjeh-bit",
     essential: true,
   },
   {
@@ -253,12 +253,6 @@ const me: Me = {
       description: <>三档只调节奏、陷阱密度和伤害，重力与手感三档保持一致。</>,
     },
   ],
-  facts: [
-    { value: "4", label: "件在线可玩" },
-    { value: "100", label: "层的塔" },
-    { value: "4", label: "门专业课" },
-    { value: "1", label: "人独立完成" },
-  ],
   habits: [
     {
       title: "先跑通核心闭环",
@@ -284,14 +278,14 @@ const blog: Blog = {
   path: "/blog",
   label: "日志",
   title: "写下来才算想清楚",
-  description: `看 ${person.name} 最近在做什么`,
+  description: `从 10 月 3 号开始的开发记录：每天踩的坑、改的念头、想明白的事。`,
 };
 
 const review: Review = {
   path: "/review",
   label: "复盘",
   title: "做完之后，回头看一遍",
-  description: `每件作品做完写一篇：当时想解决什么、哪里做对了、哪里踩了坑、下次怎么改。`,
+  description: `先按项目写：每件作品做对了什么、错在哪、学到了什么。最后再整体算一次账。`,
 };
 
 const work: Work = {

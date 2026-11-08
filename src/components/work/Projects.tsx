@@ -41,6 +41,7 @@ export function Projects({ range, exclude }: ProjectsProps) {
             })) || []
           }
           link={post.metadata.link || ""}
+          repo={post.metadata.repo || ""}
         />
       ))}
     </Column>
