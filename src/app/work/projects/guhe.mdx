@@ -1,0 +1,39 @@
+---
+title: "谷盒 GrainBox"
+publishedAt: "2026-11-02"
+summary: "手办 / 谷子的收藏管理站：账号、谷库、看板、广场，数据放 Supabase，前端只有一层 HTML。"
+images:
+  - "/images/projects/yy/cover-grainbox.jpg"
+link: "https://ndhcunsjeh-bit.github.io/grainbox/"
+team:
+  - name: "yy"
+    role: "策划 + 前端 + 数据库"
+    avatar: "/images/avatar.png"
+---
+
+## 是什么
+
+把自己收的手办、谷子录进一个能查能看的谷库：每件藏品记品类（手办 / 景品 / 立牌 / 挂件 / 其他）、版本（普通 / 限定 / 再版）、状态（已入手 / 预购 / 想入 / 已出）、所属系列和入手时间，再按系列分组看。
+
+除了「我的谷库」，还有「发现 / 广场」两个公共入口——别人公开的收藏可以浏览，等于顺手做了个小的同好社区；「看板」把收藏数量、系列分布做成图表。
+
+## 技术是怎么搭的
+
+**纯前端 + Supabase 当后端**，没有自建服务器，GitHub Pages 直接托管。
+
+- **账号**：邮箱 + 密码注册，Supabase Auth 的 6 位邮箱验证码（`verifyOtp`）完成验证；密码只在浏览器内存里过一遍就交给服务端做单向哈希，**业务表里不存密码也不存哈希**。
+- **数据表**：`items` / `item_images` / `collections` / `collection_images` / `series` / `tags` / `profiles` / `avatars`，图片走 Storage 的两个桶（`avatars`、`my-shots`）。
+- **视图**：`v_my_library`、`v_series_stats` 在数据库层算好，前端只读结果，不在浏览器里聚合。
+- **行级权限**：业务表开 RLS，越权访问由数据库兜底，而不是靠前端藏按钮。
+- **登录审计**：登录记录通过 `SECURITY DEFINER` 函数写进审计表——客户端只有调用权、没有写权限；审计失败也不影响登录本身。
+
+## 踩到的坑
+
+- **注册接口的「防枚举」**：同邮箱重复注册 Supabase 不报错，只是不发信。必须自己把这句标准返回翻译成「这个邮箱已经注册过了，请直接登录」，否则用户会一直等验证码。
+- **未验证邮箱的老账号**：登录会被直接拒，错误信息还是英文。改成拦截后自动转去「补验证」流程，比让用户读报错好。
+- **系列配色**：一开始随机取色，刷新一次全变。改成按系列名做稳定哈希取色，同一个系列永远同一个颜色。
+- **本地封面映射**：图放在仓库里随部署包上传，不依赖外链图床——外链挂了整页都是破图。
+
+## 现在的状态
+
+[ndhcunsjeh-bit.github.io/grainbox](https://ndhcunsjeh-bit.github.io/grainbox/) 在线可玩，自己的收藏已经在上面录了新的一批。

@@ -1,0 +1,44 @@
+/* ==========================================================================
+   自定义覆盖：中文排版 + 少量调整
+   ========================================================================== */
+
+/* 中文没有空格，长标题在窄屏会被撑出容器 —— 允许任意位置断行 */
+h1, h2, h3, h4, h5, h6, p, li, blockquote {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* 中文正文行高比英文需要松一点 */
+p, li {
+  line-height: 1.85;
+}
+
+/* 中文标点不要顶格 */
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+/* 代码块横向滚动，不撑破布局 */
+pre {
+  overflow-x: auto;
+}
+
+/* 表格在窄屏可以横滚 */
+table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* 中文长标题在窄屏必须能断行：Once UI 的排版类优先级更高，这里直接压过去 */
+h1, h2, h3, h4, h5, h6, p, li, blockquote {
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  white-space: normal !important;
+}
+
+/* 防止任何一块内容把页面撑出横向滚动 */
+html, body {
+  max-width: 100%;
+  overflow-x: clip;
+}
